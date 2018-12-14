@@ -4,6 +4,8 @@ Read through the problems in the app.js file and match each answer with the lett
 
 ## _ _ _ _ | _ _ _ | HET | GTHSLI
 
+## TURN OFF THE LIGHTS
+
 ## Objective
 
 Analyze **Functions**, **If Statements** and **Arrays**.
@@ -69,3 +71,5 @@ To complete Part I, fulfill the following requirements:
 1. Clone this repository into your documents folder.
 2. Go into the app.js file and answer the questions (1 - 7). There are 4 possible answers but only 1 correct one. Choose the correct one and remember the letter next to it (write it down or make a mark of it).
 3. These letters will form the first two words. Unscramble the last two to find out what the sentence is!
+
+ANSWER: TURN OFF THE LIGHTS

@@ -1,7 +1,7 @@
 // 1). What corresponds to arr[3]?
 
 var arr1 = ['kitchen', 'timer', 3, 'false', false];
-
+console.log(arr1[3]);
 
 // Q. kitchen
 // R. timer
@@ -18,6 +18,7 @@ function check() {
     console.log('goodbye');
   }
 }
+console.log(check());
 
 // S. hello
 // T. error
@@ -35,6 +36,7 @@ function door() {
     console.log('The door is already closed.')
   }
 }
+console.log(door());
 
 // R. The door is already closed.
 // S. Close the door!
@@ -42,10 +44,10 @@ function door() {
 // U. error
 
 // 4. What will this print to the console?
-
+var text ="";
 var array = [41, 2, 88, 5];
 for (i = 0; i < array.length; i++) {
- console.log(array[i]);
+ text += console.log(array[i]);
 }
 
 // L. 5, 88, 2, 41 (on the same line)
@@ -68,22 +70,23 @@ console.log(desk.color);
 // 6. What will this print to the console?
 
 var sally = {
-  gender: female,
+  gender: "female",
   favoriteColor: 'blue',
   favoriteAnimal: 'panda',
   age: 13
 }
 var bob = {
-  gender: male,
+  gender: "male",
   favoriteColor: 'purple',
   favoriteAnimal: 'tiger',
   age: 14
 }
 
+var text = "";
 var people = [sally, bob];
 
 for (i = 0; i < people.length; i++) {
-  console.log(people[i].age);
+  text += console.log(people[i].age);
 }
 
 // E. 13
@@ -96,6 +99,7 @@ var counter = 0;
 counter++;
 counter+= 5;
 counter+= 5;
+console.log(counter);
 
 // F. 11
 // G. 10
